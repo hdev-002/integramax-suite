@@ -12,8 +12,9 @@
                     </button>
                     <!--end::Sidebar toggle-->
                     <!--begin::Logo image-->
-                    <a href="index.html">
-                        <img alt="Logo" src="assets/media/logos/demo60.svg" class="mh-25px" />
+                    <a href="{{route('app-launcher')}}" class="text-white fw-semibold">
+                        Integramax Suite
+                        {{-- <img alt="Logo" src="assets/media/logos/demo60.svg" class="mh-25px" /> --}}
                     </a>
                     <!--end::Logo image-->
                 </div>

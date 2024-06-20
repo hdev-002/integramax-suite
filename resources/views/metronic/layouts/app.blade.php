@@ -33,7 +33,7 @@
 <!--begin::Body-->
 <body id="kt_app_body" data-kt-app-header-fixed="true" data-kt-app-header-fixed-mobile="true"
       data-kt-app-header-stacked="true" data-kt-app-header-primary-enabled="true"
-      data-kt-app-header-secondary-enabled="true" data-kt-app-sidebar-enabled="true" data-kt-app-sidebar-fixed="true"
+      data-kt-app-header-secondary-enabled="false" data-kt-app-sidebar-enabled="true" data-kt-app-sidebar-fixed="true"
       data-kt-app-sidebar-push-toolbar="true" data-kt-app-sidebar-push-footer="true" class="app-default">
 <!--begin::Theme mode setup on page load-->
 <script>var defaultThemeMode = "light";

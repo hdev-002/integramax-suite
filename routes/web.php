@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -10,7 +11,8 @@ Route::get('/apps', function () {
     return view('metronic.apps.main');
 })->name('app-launcher');
 
-
+Route::resource('user-management', UserController::class);
+Route::get('user-management',[UserController::class,'list'])->name('user-management.list');
 Route::prefix('apps')->group(function (){
    Route::get('user-management', fn() => view('metronic.apps.user-managements.app-user-control.index'))->name('user-management.index');
 });
