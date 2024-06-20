@@ -12,8 +12,9 @@
                     </button>
                     <!--end::Sidebar toggle-->
                     <!--begin::Logo image-->
-                    <a href="index.html">
-                        <img alt="Logo" src="assets/media/logos/demo60.svg" class="mh-25px" />
+                    <a href="{{route('app-launcher')}}" class="text-white fw-semibold">
+                        Integramax Suite
+                        {{-- <img alt="Logo" src="assets/media/logos/demo60.svg" class="mh-25px" /> --}}
                     </a>
                     <!--end::Logo image-->
                 </div>
@@ -3009,9 +3010,9 @@
                 <!--begin::App Launcher-->
                 <div class="app-navbar-item ms-1">
                     <!--begin::Menu- wrapper-->
-                    <div class="btn btn-sm btn-icon btn-custom h-35px w-35px" data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end">
+                    <a href="{{ route('app-launcher') }}" class="btn btn-sm btn-icon btn-custom h-35px w-35px" data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end">
                         <i class="ki-outline ki-category fs-3"></i>
-                    </div>
+                    </a>
                     <!--end::Menu wrapper-->
                 </div>
                 <!--end::App Launcher-->
