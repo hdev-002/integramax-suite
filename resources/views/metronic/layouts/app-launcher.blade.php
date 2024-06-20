@@ -55,7 +55,7 @@
                                 <!--end::Sidebar toggle-->
                                 <!--begin::Logo image-->
                                 <a href="index.html">
-                                 <h1>Integramax Suite</h1>
+                                 <h1 class="text-white">Integramax Suite</h1>
 {{--                                    <img alt="Logo" src="{{ asset('metronic/assets/media/logos/demo60.svg') }}" class="mh-25px" />--}}
                                 </a>
                                 <!--end::Logo image-->
