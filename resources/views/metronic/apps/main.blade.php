@@ -1,4 +1,4 @@
-@extends('layouts.app-launcher')
+@extends('metronic.layouts.app-launcher')
 @section('title', 'Your Page Title')
 
 @section('styles')
@@ -16,16 +16,18 @@
             <div class="col-md-3 col-lg-1 text-center mb-6" data-kt-icon-preview="true">
             </div>
             <div class="col-md-3 col-lg-1 text-center mb-6" data-kt-icon-preview="true">
+                <a href="{{ route('user-management.index') }}">
                 <div class="d-flex flex-center bg-light rounded p-4 h-80px mb-1 overlay">
                     <div class="overlay-wrapper text-gray-600">
-                        <i class="ki-duotone ki-xaomi fs-2x">
-                            <span class="path1"></span>
-                            <span class="path2"></span></i>
+                        <i class="bi bi-person-badge fs-2x"></i>
+                    </div>
+                    <div class="overlay-layer overlay bg-gray-500 bg-opacity-25 rounded d-flex">
                     </div>
                 </div>
 
                 <span class="fs-7 fw-semibold" data-kt-icon-name="true">
-                            Sales                        </span>
+                            User Management                        </span>
+                </a>
             </div>
             <div class="col-md-3 col-lg-1 text-center mb-6" data-kt-icon-preview="true">
                 <div class="d-flex flex-center bg-light rounded p-4 h-80px mb-1 overlay">
