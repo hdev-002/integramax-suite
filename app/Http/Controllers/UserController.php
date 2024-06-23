@@ -24,7 +24,7 @@ class UserController extends Controller
      */
     public function create()
     {
-        //
+        return  view('metronic.apps.user-managements.app-user-control.create');
     }
 
     /**

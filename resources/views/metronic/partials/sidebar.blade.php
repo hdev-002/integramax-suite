@@ -67,17 +67,17 @@
                     <!--begin:Menu item-->
                     <div class="menu-item">
                         <!--begin:Menu link-->
-                        <span class="menu-link">
-												<span class="menu-icon">
-													<i class="ki-outline ki-plus-square fs-4 text-danger"></i>
-												</span>
-												<span class="menu-title">Create</span>
-												{{-- <span class="menu-badge">
-													<button class="btn btn-sm btn-icon btn-action" data-bs-toggle="modal" data-bs-target="#kt_modal_new_card">
-														<i class="ki-outline ki-plus fs-4"></i>
-													</button>
-												</span> --}}
-											</span>
+                        <a href="{{route('user-management.create')}}" class="menu-link">
+                            <span class="menu-icon">
+                                <i class="ki-outline ki-plus-square fs-4 text-danger"></i>
+                            </span>
+                            <span class="menu-title">Create</span>
+                            {{-- <span class="menu-badge">
+                                <button class="btn btn-sm btn-icon btn-action" data-bs-toggle="modal" data-bs-target="#kt_modal_new_card">
+                                    <i class="ki-outline ki-plus fs-4"></i>
+                                </button>
+                            </span> --}}
+                        </a>
                         <!--end:Menu link-->
                     </div>
                     <!--end:Menu item-->

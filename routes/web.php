@@ -13,8 +13,9 @@ Route::get('/apps', function () {
 
 Route::resource('user-management', UserController::class);
 Route::get('user-management',[UserController::class,'list'])->name('user-management.list');
+
 Route::prefix('apps')->group(function (){
-   Route::get('user-management', fn() => view('metronic.apps.user-managements.app-user-control.index'))->name('user-management.index');
+   Route::get('user-management', fn() => view('metronic.apps.user-managements.app-user-control.create'))->name('user-management.index');
 });
 
 Route::middleware([
